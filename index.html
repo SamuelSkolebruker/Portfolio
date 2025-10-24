@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Horror Roguelike Project</title>
+
+  <link rel="icon" href="bilder/initialer (1).ico">
+  <link rel="stylesheet" href="style.css?v=3">
+</head>
+<body>
+  <header id="home" class="wrap hero">
+    <h1>Horror Roguelike Project</h1>
+  </header>
+
+  <main class="wrap">
+
+    <section id="Samuel" class="card">
+      <h2>Om Samuel</h2>
+      <p>Jeg heter Samuel og går IM på haugalnd vg1. Jeg jobber med spillutvikling på fritiden, og lærer nye ting innen programmering og medie utvikling på skolen
+        Hjemme har jeg brukt mange timer på å ta kurs innen 3D-utvikling, kunnskap jeg bruker til å lage spill. I tillegg har jeg tatt kurs innen og jobbet mye selv med spillutvikling.
+        På skolen har jeg programert AI som jeg i senere tid har videreutviklet hjemme og lagd til om til ett monster som skal brukes i spillet. 
+       <h3 class="sub">Ferdigheter</h3>
+        <ul class="list">
+          <li>3D-Utvikling i blender</li>
+          <li>Web-utvikling</li>
+          <li>Fotoredigering</li>
+          <li>C# og Unity</li>
+        </ul>
+      </p>
+
+    </section>
+
+    <section id="about" class="card">
+      <h2>Om spillet</h2>
+      <p>En stemningsfull singleplayer-roguelike med stort fokus på skrekk elementer.
+        tanken med spillet våres er å lage ett skrekkspill som er replayable, men det vi har tenkt er at selve skrekk sjangeren ikke egentlig er så veldig replayable.
+        Derfor kombinerer vi skrekkspill med roguelike sjangeren, noe som både gjør at å dø ikke blir like kjedelig, i tillegg til at det gjør at spillestilen din må utvikle seg desto lenger du kommer.
+        Skrekkspill har en tendens til å miste sjarmen og skummelheten sin jo mer du spiller de, og derfor lager vi spillet våres til en roguelike der det ikke lenger er et problem. 
+      </p>
+      <p>
+        Spillet i seg selv går ut på å prøve å overleve så mange dager som mulig. Det vil være et fyrtårn på kartet, og det må du fulle med drivstoff for at det skal holde seg på og lyse vekk tåken.
+        Du skal kunne finne både penger, ting som kan selges, og items som vil gjr deg sterkere og som er nødvendig for å klare å overleve de senere stadiene i spillet. 
+        Det vil være mange monstere som går rundt på kartet som alle vil kreve forskjellige spillestiler for å overleve.
+        Noen monstere er farligere enn andre og hver runde vil holde deg på kanten menst du finner ut hvilke monster du spiller mot denne runden. 
+        Hvis du går ut i tåken vil det være vanskeligere å se, og farligere monstere gjemmer seg i tåken.
+      </p>
+      <ul>
+        <li>Kjerne: lydskrekk, lys/mørke, dynamiske jaktfaser</li>
+        <li>Plattform: PC (Unity 2022+)</li>
+      </ul>
+    </section>
+
+
+    <section id="devlog" class="card">
+      <h2>Devlogg - Samuel</h2>
+
+      <article class="log">
+        <time datetime="2025-10-23">23.10.2025</time>
+        <h3>Hva har jeg jobbet med?</h3>
+        <p>
+          Gjennom reisen min som spillutvikler har jeg hatt et stort fokus på 3D-design i Blender.
+          For spillet har jeg designet og utviklet mitt eget monster som ligner på en slags alien.
+          Jeg har også designet et par items, som for eksempel våpen eller verktøy.
+        </p>
+      </article>
+
+      <article class="log">
+        <time datetime="2025-10-20">20.10.2025</time>
+        <h3>AI-prototyper</h3>
+        <p>
+          Det første monsteret jeg lagde er et ganske simpelt monster med en enkel AI.
+          Den har stort fokus på at du må kunne høre den, både for å vite hvor den er,
+          og for å vite om den vet hvor du er.
+        </p>
+        <img class="devlog-img" src="bilder/Monster1.jpg" alt ="Monster1 konseptbile1">
+        <p>Jeg begynte på modellen uten noe særlig plan og dette var resultatet jeg endte opp med før jeg fikk fargelagt</p>
+        <img class="devlog-img" src="bilder/Monster2.webp" alt ="monster1 konseptbile2">
+        <p>Her er resultatet etter det ble fargelagt og jeg har brukt noen shadingstartegier jeg lærte på youtube. I tillegg har jeg lagt til ett hjerte</p>
+        <p><em>AI grunnlag:</em> Patrulje → Jakt → Søk. Justert lyd (heartbeat) etter avstand.</p>
+      </article>
+    </section>
+
+    <section id="info" class="card">
+      <h2>Info</h2>
+      <p><strong>Kontakt:</strong> smumuel@gmail.com</p>
+
+      <h3 class="sub">Team</h3>
+      <ul class="list">
+        <li><strong>Pål Ellefsen</strong> - Level design & QA</li>
+        <li><strong>Samuel Ellefsen</strong> - 3D Art</li>
+        <li><strong>David </strong> - Audio</li>
+        <li><strong>Tobias Ellefsen</strong> - UI/UX</li>
+      </ul>
+    </section>
+  </main>
+
+  <nav class="bottom" aria-label="Navigasjon nederst">
+    <a href="#Samuel">Om Samuel</a>
+    <a href="#about">Om spillet</a>
+    <a href="#devlog">Devlogg</a>
+    <a href="#info">Info</a>
+  </nav>
+
+  <script src="script.js?v=3"></script>
+</body>
+</html>
